@@ -10,6 +10,18 @@
 th {
   border: none !important;
 }
+.Table img {
+  /* display: grid; */
+  height: 300px;
+  width :500px ;
+}
+#logo1{
+  margin-left: 10px;
+  width: 500px;
+}
+/* #sec{
+  width: 10ox;
+} */
 
 .Table:first-child {
   border-radius: 0.7rem !important;

@@ -7,6 +7,8 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import "./Table.css";
+import logo from './12.png'
+import logo1 from './13.png'
 
 function createData(name, trackingId, date, status) {
   return { name, trackingId, date, status };
@@ -46,6 +48,8 @@ const makeStyle=(status)=>{
 export default function BasicTable() {
   return (
       <div className="Table">
+        <img src={logo} alt="12" />
+        <img id="logo1" src={logo1} alt="13" />
       <h3>Recent Orders</h3>
         <TableContainer
           component={Paper}
@@ -81,6 +85,7 @@ export default function BasicTable() {
             </TableBody>
           </Table>
         </TableContainer>
+        
       </div>
   );
 }

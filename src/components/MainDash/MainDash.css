@@ -4,6 +4,22 @@
     flex-direction: column;
     justify-content: space-evenly;
 }
+.MainDash input[type=text] {
+  
+    display: flex;
+        float: right;
+        width:200px ;  
+        font-size: 18px;
+        font-weight: 600;
+        padding: 10px;
+        border: 2px solid transparent;
+        shape-outside: circle(10px);
+        align-items: end;
+        margin-left: 70%;
+        border-radius: 30px;
+        margin-top: 8px;
+    
+  }
 
 @media screen and (max-width: 1200px) {
     .MainDash{
@@ -12,9 +28,12 @@
     }
 }
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 1000px)
 {
     .MainDash{
+        align-items: center;
+    }
+    .MainDash input[type=text] {
         align-items: center;
     }
 }
